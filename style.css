@@ -69,6 +69,7 @@ header{
 .hero-section{
     background-color: #1f2937;
     color: #fff;
+    padding-bottom: 32px;
 }
 
 .hero-container{
@@ -137,6 +138,7 @@ background-color: #609cf8;
 
 .about-section{
     background-color: #fff;
+    padding: 48px 0;
 }
 
 .about-header{
@@ -215,6 +217,10 @@ background-color: #609cf8;
 
 /* CALL-TO-ACTION SECTION */
 
+.cta-section{
+    padding: 48px 0;
+}
+
 .cta-container-center{
     margin: 48px 110px;
 }
@@ -259,4 +265,15 @@ background-color: #609cf8;
     cursor: pointer;
     background-color: #fff;
     color: #609cf8;
+}
+
+/*-----------------------------*/
+
+/* FOOTER SECTION */
+
+footer{
+    text-align: center;
+    background-color: #1f2937;
+    color: #fff;
+    padding:56px 0;
 }
