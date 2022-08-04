@@ -211,4 +211,52 @@ background-color: #609cf8;
     font-weight: 500;
 }
 
+/*-----------------------------*/
 
+/* CALL-TO-ACTION SECTION */
+
+.cta-container-center{
+    margin: 48px 110px;
+}
+
+.cta-container{
+    max-width: 1200px;
+    background-color:#609cf8;
+    color: #fff;
+    margin: auto;
+    padding: 32px 110px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    align-text:center;
+}
+
+.cta-message-title{
+    padding-bottom: 8px;
+}
+
+.cta-message-body{
+    font-weight:300;
+}
+
+.cta-button{
+    font-size: 18px;
+    color: #fff;
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    border: #fff solid 2px;
+    text-align: center;
+    background-color: #609cf8;
+    padding: 12px 24px;
+    flex: 1 1 0;
+}
+
+.cta-button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #609cf8;
+}
