@@ -16,20 +16,15 @@ body{
     margin: auto;
 }
 
+/*-----------------------------*/
+
+/* HEADER */
+
 header{
     background-color: #1f2937;
     color: #fff;
     padding: 24px 64px 0px ;
 }
-
-.hero-section{
-    background-color: #1f2937;
-    color: #fff;
-}
-
-/*-----------------------------*/
-
-/* HEADER */
 
 .header-container{
     display: flex;
@@ -70,6 +65,11 @@ header{
 /*-----------------------------*/
 
 /* HERO SECTION */
+
+.hero-section{
+    background-color: #1f2937;
+    color: #fff;
+}
 
 .hero-container{
     padding: 48px; 64px;
@@ -182,3 +182,33 @@ background-color: #609cf8;
     transform: scale(105%);
     cursor: pointer;
 }
+
+/*-----------------------------*/
+
+/* QUOTE SECTION */
+
+.quote-section{
+    background-color:#e5e7eb;
+}
+
+.quote-container{
+    max-width: 1200px;
+    margin:auto;
+    padding: 48px 220px;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.quote-author{
+    align-self: flex-end;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
